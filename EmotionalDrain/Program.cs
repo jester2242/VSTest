@@ -27,7 +27,10 @@ namespace EmotionalDrain
             Console.WriteLine("\n\n\nWait for the result below, then hit ENTER to exit...\n\n\n");
             Console.ReadLine(); // wait for ENTER to exit program
         }
-
+        /// <summary>
+        /// Function splits the contents of a file into a byte array.
+        /// <param name="imageFilePath">path to JPEG to be tested</param>
+        /// <returns>Byte array of the contents of the file</returns>
         static byte[] GetImageAsByteArray(string imageFilePath)
         {
             FileStream fileStream = new FileStream(imageFilePath, FileMode.Open, FileAccess.Read);
