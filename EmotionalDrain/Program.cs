@@ -11,6 +11,10 @@ namespace EmotionalDrain
     /// </summary>
     static class Program
     {
+
+        /// <summary>
+        /// Entry point of the application.
+        /// </summary>
         static void Main()
         {
             Console.Write("Enter the path to a JPEG image file:");
