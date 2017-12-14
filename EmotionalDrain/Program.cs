@@ -6,6 +6,9 @@ using Newtonsoft.Json.Linq;
 
 namespace EmotionalDrain
 {
+    /// <summary>
+    /// This is the main application class everything is contained in here.
+    /// </summary>
     static class Program
     {
         static void Main()
