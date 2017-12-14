@@ -29,6 +29,7 @@ namespace EmotionalDrain
         }
         /// <summary>
         /// Function splits the contents of a file into a byte array.
+        /// </summary>
         /// <param name="imageFilePath">path to JPEG to be tested</param>
         /// <returns>Byte array of the contents of the file</returns>
         static byte[] GetImageAsByteArray(string imageFilePath)
