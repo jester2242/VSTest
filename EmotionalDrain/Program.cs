@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.IO;
 using System.Net.Http.Headers;
 using System.Net.Http;
@@ -8,6 +9,7 @@ namespace EmotionalDrain
 {
     /// <summary>
     /// This is the main application class everything is contained in here.
+    /// I have amended the code on the server
     /// </summary>
     static class Program
     {
