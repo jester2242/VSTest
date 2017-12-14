@@ -25,6 +25,7 @@ namespace EmotionalDrain
             MakeRequest(imageFilePath);
 
             Console.WriteLine("\n\n\nWait for the result below, then hit ENTER to exit...\n\n\n");
+            Console.WriteLine("The largest number next to an emotional response is the most likely. ");
             Console.ReadLine(); // wait for ENTER to exit program
         }
         /// <summary>
